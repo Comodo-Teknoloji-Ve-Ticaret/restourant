@@ -11,7 +11,7 @@ import { products as allProducts } from "@/lib/products";
 import type { CartItem } from "@/components/product-card";
 
 // Telefon numarası (ülke koduyla, + veya boşluk olmadan)
-const PHONE_NUMBER = "905362250127";
+const PHONE_NUMBER = "05362250127";
 
 function resolveLocale(value?: string | null): Locale {
   const normalized = value?.toLowerCase() ?? "";
