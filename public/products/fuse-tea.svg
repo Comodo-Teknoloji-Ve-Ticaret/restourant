@@ -1,0 +1,70 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" rx="72" fill="url(#bg)"/>
+  <circle cx="210" cy="215" r="92" fill="#FFF1D6" fill-opacity="0.8"/>
+  <circle cx="973" cy="303" r="78" fill="#FFE7B8" fill-opacity="0.7"/>
+  <circle cx="930" cy="930" r="120" fill="#FFD08A" fill-opacity="0.32"/>
+  <circle cx="312" cy="924" r="64" fill="#FFF1D6" fill-opacity="0.5"/>
+
+  <g opacity="0.92">
+    <circle cx="318" cy="328" r="92" fill="#FFCC68"/>
+    <circle cx="318" cy="328" r="75" fill="#F49F28"/>
+    <circle cx="318" cy="328" r="71" stroke="#FFDFA6" stroke-width="8"/>
+    <circle cx="318" cy="328" r="12" fill="#FFF1D6"/>
+  </g>
+
+  <g opacity="0.78">
+    <circle cx="904" cy="792" r="106" fill="#FFCC68"/>
+    <circle cx="904" cy="792" r="86" fill="#F49F28"/>
+    <circle cx="904" cy="792" r="82" stroke="#FFDFA6" stroke-width="8"/>
+    <circle cx="904" cy="792" r="14" fill="#FFF1D6"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M495 183C495 163.118 511.118 147 531 147H669C688.882 147 705 163.118 705 183V221C705 240.882 688.882 257 669 257H531C511.118 257 495 240.882 495 221V183Z" fill="#232323"/>
+    <path d="M474 241C474 223.879 487.879 210 505 210H695C712.121 210 726 223.879 726 241V294C726 311.121 712.121 325 695 325H505C487.879 325 474 311.121 474 294V241Z" fill="#F8F4EE"/>
+    <path d="M474 292H726V912C726 954.526 691.526 989 649 989H551C508.474 989 474 954.526 474 912V292Z" fill="url(#bottle)"/>
+    <path d="M474 740H726V912C726 954.526 691.526 989 649 989H551C508.474 989 474 954.526 474 912V740Z" fill="url(#teaBottom)"/>
+    <path d="M511 321H689V843C689 874.48 663.48 900 632 900H568C536.52 900 511 874.48 511 843V321Z" fill="url(#tea)" fill-opacity="0.88"/>
+    <path d="M474 682C554 634 640 630 726 664V842C661 826 576 823 474 874V682Z" fill="url(#accent)"/>
+    <circle cx="600" cy="575" r="154" fill="#F8F0E5" fill-opacity="0.97"/>
+    <circle cx="600" cy="575" r="148" stroke="#FFFFFF" stroke-opacity="0.58" stroke-width="8"/>
+    <text x="600" y="550" text-anchor="middle" fill="#2A2220" font-size="92" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1">FUSE</text>
+    <text x="600" y="628" text-anchor="middle" fill="#2A2220" font-size="66" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">TEA</text>
+    <text x="600" y="845" text-anchor="middle" fill="#FFF7EC" font-size="50" font-family="Arial, Helvetica, sans-serif" font-weight="700">330 ml</text>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="145" y1="96" x2="1037" y2="1090" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F0"/>
+      <stop offset="0.48" stop-color="#FFF1D6"/>
+      <stop offset="1" stop-color="#FFE0AD"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="600" y1="210" x2="600" y2="989" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7F0"/>
+      <stop offset="1" stop-color="#EFE6D8"/>
+    </linearGradient>
+    <linearGradient id="tea" x1="600" y1="321" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E79A2A"/>
+      <stop offset="0.45" stop-color="#B9611E"/>
+      <stop offset="1" stop-color="#8A3C17"/>
+    </linearGradient>
+    <linearGradient id="teaBottom" x1="600" y1="740" x2="600" y2="989" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A84C1A" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#6F2D14" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="486" y1="713" x2="709" y2="825" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1FC7D4"/>
+      <stop offset="1" stop-color="#7DE35F"/>
+    </linearGradient>
+    <filter id="shadow" x="398" y="123" width="404" height="950" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="18"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.333333 0 0 0 0 0.192157 0 0 0 0 0.0862745 0 0 0 0.2 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+</svg>
