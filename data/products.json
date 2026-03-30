@@ -6,7 +6,7 @@
       "en": "Beef Kokoreç",
       "ar": "كوكوريتش لحم بقري"
     },
-    "image": "/products/dana-kokorec.jpg"
+    "image": "products/dana-kokorec.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
       "en": "Lamb Kokoreç",
       "ar": "كوكوريتش لحم خروف"
     },
-    "image": "/products/kuzu-kokorec.jpg"
+    "image": "products/kuzu-kokorec.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
       "en": "İzmir Melted Cheese",
       "ar": "إزمير بالجبنة الذائبة"
     },
-    "image": "/products/izmir-eritme.jpg"
+    "image": "products/izmir-eritme.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
       "en": "Kumru Sandwich",
       "ar": "ساندويتش كومرو"
     },
-    "image": "/products/kumru.jpg"
+    "image": "products/kumru.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
       "en": "Meatball Sandwich",
       "ar": "ساندويتش كفتة"
     },
-    "image": "/products/kofte-ekmek.jpg"
+    "image": "products/kofte-ekmek.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
       "en": "Chicken Sauté",
       "ar": "صوتيه دجاج"
     },
-    "image": "/products/tavuk-sote.jpg"
+    "image": "products/tavuk-sote.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
       "en": "Chicken Döner",
       "ar": "دونر دجاج"
     },
-    "image": "/products/tavuk-doner.jpg"
+    "image": "products/tavuk-doner.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
       "en": "Eggs with Sujuk",
       "ar": "بيض بالسجق"
     },
-    "image": "/products/sucuklu-yumurta.jpg"
+    "image": "products/sucuklu-yumurta.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
       "en": "Eggs with Minced Meat",
       "ar": "بيض باللحم المفروم"
     },
-    "image": "/products/kiymali-yumurta.jpg"
+    "image": "products/kiymali-yumurta.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
       "en": "Eggs with Sujuk & Cheese",
       "ar": "بيض بالسجق والجبنة"
     },
-    "image": "/products/kasarli-sucuklu.jpg"
+    "image": "products/kasarli-sucuklu.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
       "en": "Special Atom",
       "ar": "سبيشال أتوم"
     },
-    "image": "/products/special-atom.jpg"
+    "image": "products/special-atom.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
       "en": "Sujuk Sandwich",
       "ar": "ساندويتش سجق"
     },
-    "image": "/products/sucuk-ekmek.jpg"
+    "image": "products/sucuk-ekmek.jpg"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
       "en": "Rice with Chicken & Chickpeas",
       "ar": "أرز بالدجاج والحمص"
     },
-    "image": "/products/tavuklu-nohutlu.jpg"
+    "image": "products/tavuklu-nohutlu.jpg"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
       "en": "Rice with Chicken Döner",
       "ar": "أرز مع دونر دجاج"
     },
-    "image": "/products/pilav-tavuk-doner.jpg"
+    "image": "products/pilav-tavuk-doner.jpg"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
       "en": "Rice with Chicken Fillet",
       "ar": "أرز مع فيليه دجاج"
     },
-    "image": "/products/pilav-bonfile.jpg"
+    "image": "products/pilav-bonfile.jpg"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
       "en": "Rice with Chicken Sauté",
       "ar": "أرز مع صوتيه دجاج"
     },
-    "image": "/products/pilav-sote.jpg"
+    "image": "products/pilav-sote.jpg"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
       "en": "Rice with Grilled Meatballs",
       "ar": "أرز مع كفتة مشوية"
     },
-    "image": "/products/pilav-kofte.jpg"
+    "image": "products/pilav-kofte.jpg"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
       "en": "Rice with Chicken Chop",
       "ar": "أرز مع شرائح دجاج"
     },
-    "image": "/products/pilav-pirzola.jpg"
+    "image": "products/pilav-pirzola.jpg"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
       "en": "Chicken Chop Portion",
       "ar": "حصة شرائح دجاج"
     },
-    "image": "/products/tavuk-pirzola.jpg"
+    "image": "products/tavuk-pirzola.jpg"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
       "en": "Grilled Meatball Portion",
       "ar": "حصة كفتة مشوية"
     },
-    "image": "/products/porsiyon-kofte.jpg"
+    "image": "products/porsiyon-kofte.jpg"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
       "en": "Pepsi 330 ml",
       "ar": "بيبسي 330 مل"
     },
-    "image": "/products/pepsi.jpg"
+    "image": "products/pepsi.jpg"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
       "en": "Fanta 330 ml",
       "ar": "فانتا 330 مل"
     },
-    "image": "/products/fanta.jpg"
+    "image": "products/fanta.jpg"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
       "en": "Fuse Tea 330 ml",
       "ar": "فيوز تي 330 مل"
     },
-    "image": "/products/fuse-tea.svg"
+    "image": "products/fuse-tea.svg"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
       "en": "Water 0.5 L",
       "ar": "ماء 0.5 لتر"
     },
-    "image": "/products/su.jpg"
+    "image": "products/su.jpg"
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
       "en": "Niğde Soda 200 ml",
       "ar": "نيغدة غازوز 200 مل"
     },
-    "image": "/products/nigde.jpg"
+    "image": "products/nigde.jpg"
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
       "en": "Turnip Juice 330 ml",
       "ar": "عصير لفت 330 مل"
     },
-    "image": "/products/salgam.jpg"
+    "image": "products/salgam.jpg"
   },
   {
     "id": 27,
@@ -240,6 +240,6 @@
       "en": "Ayran 300 ml",
       "ar": "عيران 300 مل"
     },
-    "image": "/products/ayran.jpg"
+    "image": "products/ayran.jpg"
   }
 ]
