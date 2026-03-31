@@ -1,2 +1,4 @@
+const GOOGLE_MAPS_DESTINATION = "Mehmet Usta'nın Yeri kokoreç & köfte, Kundu Turizm Bölgesi Hotel Limak Lara Karşısı, Kemerağzı, 07112 Aksu/Antalya";
+
 export const GOOGLE_MAPS_DIRECTIONS_URL =
-  "https://www.google.com/maps/dir//Mehmet+Usta'n%C4%B1n+Yeri+kokore%C3%A7+%26+k%C3%B6fte,+Kundu+Turizm+B%C3%B6lgesi+Hotel+Limak+Lara+Kar%C5%9F%C4%B1s%C4%B1,+Kemera%C4%9Fz%C4%B1,+07112+Aksu%2FAntalya/@36.8699858,30.88384,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14c383782e354fe9:0xa26b90ad363cf0df!2m2!1d30.8810392!2d36.8586384?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D";
+  `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(GOOGLE_MAPS_DESTINATION)}`;

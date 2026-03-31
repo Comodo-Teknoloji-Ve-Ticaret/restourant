@@ -28,7 +28,7 @@ export function FloatingControls({
   const currentLang = languages.find((l) => l.code === locale);
 
   const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+    window.location.href = `tel:+${phoneNumber}`;
   };
 
   if (!mounted) return null;

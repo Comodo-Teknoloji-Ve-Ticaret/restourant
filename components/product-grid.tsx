@@ -14,6 +14,22 @@ interface ProductGridProps {
   searchQuery: string;
 }
 
+type ProductCategory = "sandwiches" | "portions" | "drinks";
+
+function normalizeForSearch(value: string, locale: Locale) {
+  return value
+    .toLocaleLowerCase(locale)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+}
+
+function getProductCategory(imagePath: string): ProductCategory {
+  if (imagePath.startsWith("icecekler/")) return "drinks";
+  if (imagePath.startsWith("ekmekarasi/")) return "sandwiches";
+  return "portions";
+}
+
 export function ProductGrid({
   locale,
   cart,
@@ -23,10 +39,27 @@ export function ProductGrid({
   searchQuery,
 }: ProductGridProps) {
   const t = translations[locale];
+  const normalizedQuery = normalizeForSearch(searchQuery, locale);
+  const sectionOrder: ProductCategory[] = ["sandwiches", "portions", "drinks"];
 
   const filtered = products.filter((p) =>
-    getLocalizedText(p.name, locale).toLowerCase().includes(searchQuery.toLowerCase())
+    normalizeForSearch(getLocalizedText(p.name, locale), locale).includes(normalizedQuery)
   );
+
+  const grouped = sectionOrder.map((section) => ({
+    section,
+    items: filtered.filter(
+      (p) => getProductCategory(p.image) === section
+    ),
+  }));
+
+  const sectionTitles: Record<ProductCategory, string> = {
+    sandwiches: t.sandwiches,
+    portions: t.portions,
+    drinks: t.drinks,
+  };
+
+  let globalIndex = 0;
 
   return (
     <section className="py-6">
@@ -40,22 +73,39 @@ export function ProductGrid({
             {t.noResults}
           </div>
         ) : (
-          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
-            {filtered.map((product, index) => {
-              const cartItem = cart.find((c) => c.id === product.id);
+          <div className="space-y-8">
+            {grouped.map(({ section, items }) => {
+              if (items.length === 0) return null;
+
               return (
-                <ProductCard
-                  key={product.id}
-                  id={product.id}
-                  name={product.name}
-                  image={product.image}
-                  locale={locale}
-                  cartQuantity={cartItem?.quantity ?? 0}
-                  phoneNumber={phoneNumber}
-                  onAdd={() => onAdd(product.id)}
-                  onRemove={() => onRemove(product.id)}
-                  priority={index < 4}
-                />
+                <div key={section} className="space-y-4">
+                  <h3 className="text-center font-sans text-sm sm:text-base font-extrabold tracking-[0.18em] text-muted-foreground">
+                    {`-----${sectionTitles[section]}-----`}
+                  </h3>
+
+                  <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
+                    {items.map((product) => {
+                      const cartItem = cart.find((c) => c.id === product.id);
+                      const priority = globalIndex < 4;
+                      globalIndex += 1;
+
+                      return (
+                        <ProductCard
+                          key={product.id}
+                          id={product.id}
+                          name={product.name}
+                          image={product.image}
+                          locale={locale}
+                          cartQuantity={cartItem?.quantity ?? 0}
+                          phoneNumber={phoneNumber}
+                          onAdd={() => onAdd(product.id)}
+                          onRemove={() => onRemove(product.id)}
+                          priority={priority}
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
               );
             })}
           </div>
