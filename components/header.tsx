@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Search, Sun, Moon } from "lucide-react";
 import { type Locale, translations } from "@/lib/translations";
 
@@ -25,13 +26,23 @@ export function Header({
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between gap-3">
           {/* Logo / Title */}
-          <div className="flex-1 min-w-0">
-            <h1 className="font-sans text-xl sm:text-3xl font-extrabold text-foreground leading-tight tracking-tight text-balance">
-              {t.title}
-            </h1>
-            <p className="text-sm text-muted-foreground hidden sm:block mt-1 font-medium leading-relaxed">
-              {t.subtitle}
-            </p>
+          <div className="flex-1 min-w-0 flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="Kofteci Mehmet Logo"
+              width={64}
+              height={64}
+              className="w-14 h-14 sm:w-16 sm:h-16 rounded-md object-cover shrink-0"
+              priority
+            />
+            <div className="min-w-0">
+              <h1 className="font-sans text-xl sm:text-3xl font-extrabold text-foreground leading-tight tracking-tight text-balance">
+                {t.title}
+              </h1>
+              <p className="text-sm text-muted-foreground hidden sm:block mt-1 font-medium leading-relaxed">
+                {t.subtitle}
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
