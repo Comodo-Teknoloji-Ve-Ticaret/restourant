@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
-const repository = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
-const isUserPagesRepo = repository.endsWith(".github.io");
-const pagesBasePath = process.env.GITHUB_ACTIONS && repository && !isUserPagesRepo
-  ? `/${repository}`
-  : "";
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH?.trim() ?? "";
+const pagesBasePath = rawBasePath === "/" ? "" : rawBasePath.replace(/\/$/, "");
 
 const nextConfig = {
   output: "export",
