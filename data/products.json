@@ -24,7 +24,7 @@
       "en": "İzmir Melted Cheese",
       "ar": "إزمير بالجبنة الذائبة"
     },
-    "image": "ekmekarasi/izmir-eritme.jpg"
+    "image": "porsiyon/new/izmireritme.jpeg"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
       "en": "Meatball Sandwich",
       "ar": "ساندويتش كفتة"
     },
-    "image": "ekmekarasi/kofte.jpeg"
+    "image": "porsiyon/new/ekmekarasikofte.jpeg"
   },
   {
     "id": 6,
@@ -60,7 +60,7 @@
       "en": "Chicken Döner",
       "ar": "دونر دجاج"
     },
-    "image": "ekmekarasi/tavuk-doner.jpg"
+    "image": "porsiyon/new/ekmekarasıtavukdoner.jpeg"
   },
   {
     "id": 8,
@@ -96,7 +96,7 @@
       "en": "Special Atom",
       "ar": "سبيشال أتوم"
     },
-    "image": "ekmekarasi/special-atom.jpg"
+    "image": "ekmekarasi/izmir-eritme.jpg"
   },
   {
     "id": 12,
@@ -123,7 +123,7 @@
       "en": "Rice with Chicken Döner",
       "ar": "أرز مع دونر دجاج"
     },
-    "image": "porsiyon/pilav-tavuk-doner.jpg"
+    "image": "porsiyon/new/pilavustutavukdoner.jpeg"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
       "en": "Rice with Chicken Fillet",
       "ar": "أرز مع فيليه دجاج"
     },
-    "image": "porsiyon/pilav-bonfile.jpg"
+    "image": "porsiyon/new/pilavustubonfile.jpeg"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
       "en": "Rice with Chicken Sauté",
       "ar": "أرز مع صوتيه دجاج"
     },
-    "image": "porsiyon/pilavustutavuksote.jpeg"
+    "image": "porsiyon/new/pilavustutavuksote.jpeg"
   },
   {
     "id": 17,
@@ -168,7 +168,7 @@
       "en": "Chicken Chop Portion",
       "ar": "حصة شرائح دجاج"
     },
-    "image": "porsiyon/tavukpirzolaporsiyon.jpeg"
+    "image": "porsiyon/new/porsiyontavukpirzola.jpeg"
   },
   {
     "id": 20,
