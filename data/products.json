@@ -20,21 +20,13 @@
   {
     "id": 3,
     "name": {
-      "tr": "İzmir Eritme",
-      "en": "İzmir Melted Cheese",
-      "ar": "إزمير بالجبنة الذائبة"
+      "tr": "İzmir Eritme /Kumru",
+      "en": "İzmir Melted Cheese / Kumru",
+      "ar": "إزمير بالجبنة الذائبة / كومرو"
     },
     "image": "porsiyon/new/izmireritme.jpeg"
   },
-  {
-    "id": 4,
-    "name": {
-      "tr": "Kumru",
-      "en": "Kumru Sandwich",
-      "ar": "ساندويتش كومرو"
-    },
-    "image": "ekmekarasi/kumru.jpg"
-  },
+
   {
     "id": 5,
     "name": {
@@ -47,7 +39,7 @@
   {
     "id": 6,
     "name": {
-      "tr": "Tavuk Sote",
+      "tr": "Tavuk Pirzola",
       "en": "Chicken Sauté",
       "ar": "صوتيه دجاج"
     },
@@ -62,15 +54,17 @@
     },
     "image": "porsiyon/new/ekmekarasıtavukdoner.jpeg"
   },
-  {
+    {
     "id": 8,
     "name": {
-      "tr": "Sucuklu Yumurta",
-      "en": "Eggs with Sujuk",
-      "ar": "بيض بالسجق"
+      "tr": "Tavuk Sote",
+      "en": "Chicken Sauté",
+      "ar": "صوتيه دجاج"
     },
-    "image": "ekmekarasi/sucuklu-yumurta.jpg"
+    "image": "porsiyon/new/ekmekarasitavuksote.jpeg"
   },
+
+
   {
     "id": 9,
     "name": {
