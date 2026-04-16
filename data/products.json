@@ -24,7 +24,7 @@
       "en": "İzmir Melted Cheese / Kumru",
       "ar": "إزمير بالجبنة الذائبة / كومرو"
     },
-    "image": "porsiyon/new/izmireritme.jpeg"
+    "image": "ekmekarasi/izmireritme.jpeg"
   },
 
   {
@@ -34,7 +34,7 @@
       "en": "Meatball Sandwich",
       "ar": "ساندويتش كفتة"
     },
-    "image": "porsiyon/new/ekmekarasikofte.jpeg"
+    "image": "ekmekarasi/ekmekarasikofte.jpeg"
   },
   {
     "id": 6,
@@ -52,7 +52,7 @@
       "en": "Chicken Döner",
       "ar": "دونر دجاج"
     },
-    "image": "porsiyon/new/ekmekarasıtavukdoner.jpeg"
+    "image": "ekmekarasi/ekmekarasıtavukdoner.jpeg"
   },
     {
     "id": 8,
@@ -61,7 +61,7 @@
       "en": "Chicken Sauté",
       "ar": "صوتيه دجاج"
     },
-    "image": "porsiyon/new/ekmekarasitavuksote.jpeg"
+    "image": "ekmekarasi/ekmekarasitavuksote.jpeg"
   },
 
 
